@@ -1,13 +1,22 @@
-
+var config = require('./config')('./config.json');
 var parser = require('./parser');
-
-
-var ft = require('file-tail').startTailing("/Users/Coral/Library/Logs/Unity/Player.log");
+if(config.reporting)
+{
+    var reporting = require('./reporting');
+}
+var ft = require('file-tail').startTailing(config.hearthstone_log_path);
 ft.on('line',parse);
 
 function parse(line)
 {
-	parser.parseLine(line, function(data){
-        console.log(data);
+    parser.parseLine(line, function(data){
+        if(config.reporting)
+        {
+
+        }
+        else
+        {
+            console.log(data);
+        }
     })
 }
