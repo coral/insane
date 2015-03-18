@@ -1,7 +1,8 @@
 {
     "hearthstone_log_path": "/Users/Coral/Library/Logs/Unity/Player.log",
-    "reporting": true,
+    "reporting": false,
     "reporting_ip": "localhost",
-    "reporting_port": "27015"
+    "reporting_port": "27015",
+    "computer" : 1
 }
 

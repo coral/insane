@@ -4,6 +4,7 @@ if(config.reporting)
 {
     var reporting = require('./reporting');
 }
+
 var ft = require('file-tail').startTailing(config.hearthstone_log_path);
 ft.on('line',parse);
 
@@ -12,7 +13,7 @@ function parse(line)
     parser.parseLine(line, function(data){
         if(config.reporting)
         {
-
+            reporting.report(data);
         }
         else
         {
