@@ -18,3 +18,6 @@ Check "hsconfig" out!
 - PUT: Card moved hand to deck
 - PLAY: Card moved from hand to stage
 - KILL: Card gone to graveyard
+
+
+<img src="http://userserve-ak.last.fm/serve/252/254990.jpg" alt="Klaus Wunderlich">

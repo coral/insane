@@ -13,6 +13,7 @@ function parse(line)
     parser.parseLine(line, function(data){
         if(config.reporting)
         {
+            console.log(data);
             reporting.report(data);
         }
         else
