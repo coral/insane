@@ -15,4 +15,4 @@ READ THE SHITTY LOG:
 
 ###Windows: C:\Program Files (x86)\Hearthstone\Hearthstone_Data\output_log.txt
 
-###Mac: /Users/YOURUSER/Library/Logs/Unity/Player.log
+###Mac: ~/Library/Logs/Unity/Player.log
