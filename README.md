@@ -20,4 +20,4 @@ Check "hsconfig" out!
 - KILL: Card gone to graveyard
 
 
-<img src="http://userserve-ak.last.fm/serve/252/254990.jpg" alt="Klaus Wunderlich">
+<img src="http://cdn.discogs.com/tVtlx7Eq7uf-Z81w1-nIickqHcc=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb()/discogs-images/A-281517-1109587797.gif.jpg" alt="Klaus Wunderlich">
